@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #7109E8;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.to-do {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: solid 1px #FF30F9;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.header p {
+  display: flex;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.header button {
+ border: none;
+}
+
+.header button i {
+  font-size: x-large;
+  color: #FFF;
+  
+}
+
+.divisor {
+  width: 85%;
+  height: 1px;
+  background-color: #FF30F9;
+}
+
+.divInsert {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.divInsert input {
+  background-color: #D1D0CA;
+  border: none;
+  width: 90%;
+  height: 1.875rem;
+  border-radius: 0.313rem;
+}
+
+.divInsert button {
+  background-color: #FF30F9;
+  margin-left: 1rem;
+  border: solid 1px #FF30F9;
+  border-radius: 0.400rem;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.divInsert button i {
+  font-size: x-large;
+  color: #000;
+  background-color: #FF30F9;
+}
+
+.to-do ul {
+  display: flex;
+  width: 80%;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+.divLi {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0.625px;
+  justify-content: space-between;
+  border: solid 1px #FF30F9;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FF30F9;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.divLi span {
+  width: 80%;
+  color: #000;
+  background-color: #FF30F9;
+}
+
+.divLi input {
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi button {
+  border: none;
+}
+
+.divLi i {
+  font-size: 1.375rem;
+  color: #000;
+  background-color: #FF30F9;
+  text-decoration: none;
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
